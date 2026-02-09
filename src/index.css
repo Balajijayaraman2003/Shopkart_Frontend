@@ -1,0 +1,6 @@
+@media (min-width: 768px) {
+    .main-container {
+        position: relative;
+        top: 100px
+    }
+}
