@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+
+body,
+html,
+#root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+.carousel {
+    height: 400px;
+    width: 100%;
+}
+
+.carousel-image {
+    height: 400px;
+    width: 100%;
+}
+
+.logo-text {
+    font-family: "Edu NSW ACT Cursive", "cursive", "sans-serif";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.mini-card:hover{
+    border:1px solid blue;
+}
+
+.main-containerr{
+    position: relative;
+    top:550px;
+}
